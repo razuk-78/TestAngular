@@ -1,4 +1,4 @@
-export class LogIn {
+export interface ILogIn {
     userName:string;
     password:string;
 }

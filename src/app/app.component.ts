@@ -10,7 +10,7 @@ export class AppComponent {
   title = 'TestAngular';
   constructor(private _labor:LaborService, private _rout:Router){
        _labor.tryJqueryFun();
-        this.redirect();
+        //this.redirect();
   }
 
   redirect():void{
